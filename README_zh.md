@@ -46,27 +46,6 @@
 
 ## 使用指南
 
-### 安装
-
-你可以使用以下命令来编译程序:
-
-- 安装 FluentUI 组件
-如果你已经安装过，请跳过此步骤
-```C++
-git clone -b dev --recursive git@github.com:kevinlq/FluentUI.git
-```
-等待FluentUI组件编译安装成功
-
-- 编译程序
-```C++
-git clone https://github.com/kevinlq/KWechatQml.git
-cd KWechatQml
-mkdir build && cd build
-cmake ..
-make
-sudo make install
-```
-
 ### 使用
 
 从本项目中，你可以学习到以下知识点:
@@ -87,6 +66,27 @@ sudo make install
 ![setting](images/setting2.png)
 ![program](images/program1.png)
 ![program](images/program2.png)
+
+### 安装
+
+你可以使用以下命令来编译程序:
+
+- 安装 FluentUI 组件
+如果你已经安装过，请跳过此步骤
+```C++
+git clone -b dev --recursive git@github.com:kevinlq/FluentUI.git
+```
+等待FluentUI组件编译安装成功
+
+- 编译程序
+```C++
+git clone https://github.com/kevinlq/KWechatQml.git
+cd KWechatQml
+mkdir build && cd build
+cmake ..
+make
+sudo make install
+```
 
 ## 文档与贡献
 

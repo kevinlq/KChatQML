@@ -46,6 +46,27 @@
 
 ## Build and run
 
+### use
+
+From this project, you can learn the following knowledge points:
+
+- Supports dynamic skin switching (built-in light and dark colors)
+- Support dynamic switching of languages
+- `QML` How to customize components
+- `QML` How to dynamically create components
+- How to develop interface with `MVC`
+-…
+
+![login](images/login1.png)
+![login](images/login2.png)
+![chat](images/chat1.png)
+![chat](images/chat2.png)
+![favorit](images/favorit1.png)
+![setting](images/setting1.png)
+![setting](images/setting2.png)
+![program](images/program1.png)
+![program](images/program2.png)
+
 ### Requirements
 
 - Qt/QML(at least 5.15)
@@ -69,27 +90,6 @@ cd KWechatQml
 mkdir build && cd build
 cmake --build ../ --config Release
 ```
-
-### use
-
-From this project, you can learn the following knowledge points:
-
-- Supports dynamic skin switching (built-in light and dark colors)
-- Support dynamic switching of languages
-- `QML` How to customize components
-- `QML` How to dynamically create components
-- How to develop interface with `MVC`
--…
-
-![login](images/login1.png)
-![login](images/login2.png)
-![chat](images/chat1.png)
-![chat](images/chat2.png)
-![favorit](images/favorit1.png)
-![setting](images/setting1.png)
-![setting](images/setting2.png)
-![program](images/program1.png)
-![program](images/program2.png)
 
 ## Documentation and Contributions
 
