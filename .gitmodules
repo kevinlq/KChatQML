@@ -1,0 +1,6 @@
+[submodule "3rdparty/CuteLogger"]
+	path = 3rdparty/CuteLogger
+	url = https://github.com/kevinlq/CuteLogger.git
+[submodule "3rdparty/qsyncable"]
+	path = 3rdparty/qsyncable
+	url = https://github.com/kevinlq/qsyncable.git
