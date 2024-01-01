@@ -1,0 +1,13 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.1)
+
+set(TARGET_NAME KWeChatClient)
+
+# submodule
+ADD_SUBDIRECTORY(KUtil)
+ADD_SUBDIRECTORY(KWeChatClient)
+
+#add_executable(${TARGET_NAME} ${SOURCE_FILES})
+#file(GLOB CLIENT_SOURCES "Client/*.cpp")
+#file(GLOB INTERFACE_SOURCES "Interface/*.cpp")
+#add_executable(${TARGET_NAME} ${CLIENT_SOURCES} ${INTERFACE_SOURCES})
+

@@ -40,46 +40,43 @@
 
 # KWechatQml
 
-[中文/Chinese](README_zh.md)
+[英语/English](README.md)
 
-> `KWechatQml` is a project that uses Qt/QML to imitate the WeChat interface implementation. It can help you quickly understand how QML can quickly develop interfaces.
+> `KWechatQml` 是一个使用Qt/QML 模仿微信界面实现的项目，可以帮助你快速了解 QML 如何快速开发界面。
 
-## Build and run
+## 使用指南
 
-### Requirements
+### 安装
 
-- Qt/QML(at least 5.15)
-- FluentUI(Please install this component first)
+你可以使用以下命令来编译程序:
 
-### Installation
-
-You can install KWechatQml by following these commands:
-
-- Compile and install FluentUI components
-If you have already installed it, please skip this step
+- 安装 FluentUI 组件
+如果你已经安装过，请跳过此步骤
 ```C++
 git clone -b dev --recursive git@github.com:kevinlq/FluentUI.git
 ```
-Wait for the FluentUI component to be compiled and installed successfully.
+等待FluentUI组件编译安装成功
 
-- Compiler
+- 编译程序
 ```C++
-git clone --recursive https://github.com/kevinlq/KWechatQml.git
+git clone https://github.com/kevinlq/KWechatQml.git
 cd KWechatQml
 mkdir build && cd build
-cmake --build ../ --config Release
+cmake ..
+make
+sudo make install
 ```
 
-### use
+### 使用
 
-From this project, you can learn the following knowledge points:
+从本项目中，你可以学习到以下知识点:
 
-- Supports dynamic skin switching (built-in light and dark colors)
-- Support dynamic switching of languages
-- `QML` How to customize components
-- `QML` How to dynamically create components
-- How to develop interface with `MVC`
--…
+- 支持动态切换皮肤(内置浅色和深色)
+- 支持动态切换语言
+- `QML` 如何自定义组件
+- `QML` 如何动态创建组件
+- `MVC` 如何开发界面
+- ……
 
 ![login](images/login1.png)
 ![login](images/login2.png)
@@ -91,21 +88,21 @@ From this project, you can learn the following knowledge points:
 ![program](images/program1.png)
 ![program](images/program2.png)
 
-## Documentation and Contributions
+## 文档与贡献
 
-For more information about KWechatQml and how to use it, please refer to the README.md file. If you have any questions or suggestions, feel free to submit issues or pull requests. We also welcome you to contribute to KWechatQml!
+更多关于KWechatQml的信息和用法，请查看README.md文件。如果你有任何问题或建议，欢迎提交issue或pull request。同时，我们也欢迎你为KWechatQml做出贡献！
 
-Please read [CONTRIBUTING.md](#) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Acknowledgments
-
-Thank [FluentUI](#) for the open-source project.
-
-## Release History
-
-* V1.0.0 Complete core interface implementation
+查看更多关于这个项目的贡献者，请阅读 [contributors](#)
 
 
+## 致谢
+
+感谢 [FluentUI](#) 开源项目
+
+
+## 版本历史
+
+* V1.0.0 完成核心界面实现
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
