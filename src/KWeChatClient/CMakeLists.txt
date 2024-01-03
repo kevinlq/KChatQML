@@ -34,7 +34,7 @@ if(WIN32)
     set(WIN32_RESOURCES ${CMAKE_CURRENT_SOURCE_DIR}/kchatIcon.rc)
 endif()
 
-add_executable(${TARGET_NAME}
+add_executable(${TARGET_NAME} WIN32
     ${CLIENT_SOURCES}
     ${CLIENT_HEADERS}
     ${INTERFACE_SOURCES}
@@ -46,9 +46,11 @@ add_executable(${TARGET_NAME}
     ${WIN32_RESOURCES}
 )
 
-target_sources(${TARGET_NAME} PRIVATE
-    ${PROJECT_SOURCE_DIR}/src/KChatApp.qrc
-)
+# target_sources(${TARGET_NAME} PRIVATE
+#     ${PROJECT_SOURCE_DIR}/src/KChatApp.qrc
+# )
+add_custom_target(KAppRes
+    SOURCES ${PROJECT_SOURCE_DIR}/src/KChatApp.qrc)
 
 target_include_directories(${TARGET_NAME} PUBLIC
     ${PROJECT_SOURCE_DIR}/src

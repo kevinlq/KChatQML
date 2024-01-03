@@ -65,11 +65,19 @@ int KStartManager::start(int &argc, char *argv[])
     QString qmlRes = "qrc:/KQML/App.qml";
     QString resPrefix = ":/KQML";
     //! TODO local debug use
-    if(true)
+    if(false)
     {
         qmlRes = QString("file:///%1/src/KQML/App.qml").arg(IDE_SOURCE_PATH);
         QFileInfo fInfo(QUrl(qmlRes).toLocalFile());
         resPrefix = fInfo.absolutePath() + "/";
+    }
+    else {
+        QString strFullResPath = QCoreApplication::applicationDirPath() + "/config/KSkinRes.rcc";
+        if (!QResource::registerResource(strFullResPath))
+        {
+            LOG_ERROR() << "QResource registerResource qml failed! " << strFullResPath;
+            return 1;
+        }
     }
     settingHelp->setResPrefix(resPrefix);
 

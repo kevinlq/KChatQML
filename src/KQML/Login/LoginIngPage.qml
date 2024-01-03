@@ -20,6 +20,7 @@
 import QtQuick 2.11
 import QtQuick.Layouts 1.13
 import "./../Component"
+import "./../Config"
 
 BasePage {
 
@@ -31,7 +32,7 @@ BasePage {
         id: _titleLabel
         width: 79
         height: 79
-        source: "Config/Theme/logo.jpg"
+        source: KGlHelp.useAvatar
         anchors {
             top: parent.top
             topMargin: 52

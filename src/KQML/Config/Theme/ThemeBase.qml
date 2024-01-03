@@ -22,7 +22,7 @@
   this is base theme style
 */
 import QtQuick 2.15
-import "./themeElement"
+import "./../../Config/Theme/ThemeElement"
 
 QtObject {
 

@@ -63,7 +63,7 @@ KWindow
         KGlHelp.loginUserName = "wxid_1024"
         KGlHelp.loginNickName = "kevinlq"
         KGlHelp.userCachePath = SettingsHelper.userCachePath()
-        KGlHelp.useAvatar = "Config/Theme/images/contact/" + KGlHelp.loginUserName + ".png"
+        KGlHelp.useAvatar = "/Config/Theme/images/contact/" + KGlHelp.loginUserName + ".png"
 
         KGlHelp.debugUserInfo()
     }

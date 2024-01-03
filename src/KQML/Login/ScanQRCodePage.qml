@@ -51,7 +51,7 @@ BasePage {
             width: 180
             height: 180
             anchors.centerIn: parent
-            source: "Config/Theme/qrcode.jpg"
+            source: "/Config/Theme/qrcode.jpg"
         }
     }
     KTextButton {

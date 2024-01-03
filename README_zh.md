@@ -58,8 +58,6 @@
 - ……
 
 ![login](images/login1.png)
-![login](images/login2.png)
-![chat](images/chat1.png)
 ![chat](images/chat2.png)
 ![favorit](images/favorit1.png)
 ![setting](images/setting1.png)
