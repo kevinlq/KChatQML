@@ -78,12 +78,10 @@ git clone -b dev --recursive git@github.com:kevinlq/FluentUI.git
 
 - 编译程序
 ```C++
-git clone https://github.com/kevinlq/KWechatQml.git
-cd KWechatQml
+git clone --recursive https://github.com/kevinlq/KChatQML.git
+cd KChatQML
 mkdir build && cd build
-cmake ..
-make
-sudo make install
+cmake --build ../ --config Release
 ```
 
 ## 文档与贡献

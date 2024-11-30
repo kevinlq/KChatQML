@@ -83,8 +83,8 @@ Wait for the FluentUI component to be compiled and installed successfully.
 
 - Compiler
 ```C++
-git clone --recursive https://github.com/kevinlq/KWechatQml.git
-cd KWechatQml
+git clone --recursive https://github.com/kevinlq/KChatQML.git
+cd KChatQML
 mkdir build && cd build
 cmake --build ../ --config Release
 ```
